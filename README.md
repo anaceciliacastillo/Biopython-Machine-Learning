@@ -50,7 +50,7 @@ How to Run
 
   4. Then run ana7.ipynb to perform final training, testing, visualization, and export of results.
 
-Output
-  Confusion Matrix and Classification Reports are printed to console.
-  FeatureImportance.csv is exported with the Gini Importance scores.
-  Plots show PCA, t-SNE, and feature rankings visually.
+Output:
+  - Confusion Matrix and Classification Reports are printed to console.
+  - FeatureImportance.csv is exported with the Gini Importance scores.
+  - Plots show PCA, t-SNE, and feature rankings visually.

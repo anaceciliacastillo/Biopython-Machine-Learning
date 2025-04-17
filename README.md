@@ -2,20 +2,20 @@
 ana6.ipynb - Feature Setup & Initial Random Forest Training
   - This notebook handles the first part of the project. Here’s a breakdown of what it does:
   
-  1. Data Sampling
-    - The full dataset is shuffled and a sample is taken to ensure randomness and reduce potential ordering bias in training/testing.
-  
-  2. Feature Filtering
-     -Originally, the dataset contains a wide range of sequence-derived features. This notebook manually filters features that were found to be less helpful or too noisy for classification. Some of this is based on correlation heatmaps, domain knowledge, or feature redundancy.
-  
-  4. Redefining Inputs
-    - The notebook redefines X1 to include only the cleaned set of important features. The target labels y remain unchanged.
-  
-  5. Train-Test Split
-    - An 80-20 split is applied to divide the dataset into training and testing subsets for the Random Forest classifier.
-  
-  6. Random Forest Classifier (Initial Run)
-    - The model is trained on the cleaned features. The initial performance is checked and metrics like accuracy are computed. Early signs of strong classification are seen here.
+    1. Data Sampling
+      - The full dataset is shuffled and a sample is taken to ensure randomness and reduce potential ordering bias in training/testing.
+    
+    2. Feature Filtering
+       -Originally, the dataset contains a wide range of sequence-derived features. This notebook manually filters features that were found to be less helpful or too noisy for classification. Some of this is based on correlation heatmaps, domain knowledge, or feature redundancy.
+    
+    4. Redefining Inputs
+      - The notebook redefines X1 to include only the cleaned set of important features. The target labels y remain unchanged.
+    
+    5. Train-Test Split
+      - An 80-20 split is applied to divide the dataset into training and testing subsets for the Random Forest classifier.
+    
+    6. Random Forest Classifier (Initial Run)
+      - The model is trained on the cleaned features. The initial performance is checked and metrics like accuracy are computed. Early signs of strong classification are seen here.
 
 ana7.ipynb - Final Model, Evaluation, Visualization
 - This notebook builds off of the setup in ana6.ipynb and carries out the full end-to-end classification and analysis process.

@@ -1,6 +1,6 @@
 
 ana6.ipynb - Feature Setup & Initial Random Forest Training
-  This notebook handles the first part of the project. Here’s a breakdown of what it does:
+  - This notebook handles the first part of the project. Here’s a breakdown of what it does:
   
   1. Data Sampling
     - The full dataset is shuffled and a sample is taken to ensure randomness and reduce potential ordering bias in training/testing.
@@ -18,7 +18,7 @@ ana6.ipynb - Feature Setup & Initial Random Forest Training
     - The model is trained on the cleaned features. The initial performance is checked and metrics like accuracy are computed. Early signs of strong classification are seen here.
 
 ana7.ipynb - Final Model, Evaluation, Visualization
-This notebook builds off of the setup in ana6.ipynb and carries out the full end-to-end classification and analysis process.
+- This notebook builds off of the setup in ana6.ipynb and carries out the full end-to-end classification and analysis process.
   
   1. Library Imports & Data Prep
     - The required libraries (Pandas, NumPy, Scikit-learn, Seaborn, Matplotlib) are imported. Data is standardized and made ready for use.
